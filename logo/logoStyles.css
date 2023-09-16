@@ -12,4 +12,5 @@ body{
     border-radius: 15px;
     background-image: url('/assets/e-cell-mnnit-squarelogo-1663839558030 1.png');
     background-repeat: no-repeat;
+    background-size: contain;
 }

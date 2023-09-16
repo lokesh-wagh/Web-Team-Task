@@ -3,13 +3,12 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Root Display</title>
+    <title>Document</title>
     <link rel="stylesheet" href="/navbar/navbarStyle.css">
-    <link rel="stylesheet" href="/logo/logoStyles.css">
-    <link rel="stylesheet" href="/grid/gridStyles.css">
-    <link rel="stylesheet" href="/gradientDiv/gradientStyles.css">
-    <link rel="stylesheet" href="/style.css">
+    <link rel="stylesheet" href="/home.css">
+    <link rel="stylesheet" href="/navbar/navbarStyle.css">
     <link rel="stylesheet" href="/navbarDropdown/dropdown.css">
+</head>
 <body>
     <nav class="navbar" >
         <ul class="nav-list">
@@ -40,29 +39,24 @@
         </ul>
         
     </nav>
-   
-    <div class="gridLargest">
-       
-        <div class="gradient-div gridLargestItem" id="gradient"></div>
-       
-         <div class="imageContainer gridLargestItem" style="border: 1px solid black;" id="logo">
-           
+    <div class="card">
+        <div class="image-container">
+            <img src="/assets/profile.jpeg" alt="Image">
         </div>
-        <div class="container gridLargestItem" id="grid9By9">
-            <div class="items" id="1"></div>
-            <div class="items" id="2"></div>
-            <div class="items" id="3"></div>
-            <div class="items" id="4"></div>
-            <div class="items" id="5"></div>
-            <div class="items" id="6"></div>
-            <div class="items" id="7"></div>
-            <div class="items" id="8"></div>
-            <div class="items" id="9"></div>
-            
-         </div>
+        <div class="data-container">
+           
+           
+                <p class="text">
+                    Lokesh Wagh
+                </p>
+                <p class="text">
+                    20223137
+                </p>
+                
+        
+            <button class="text" id="cardButton"><a href="https://www.instagram.com/_lokesh_wagh/">View Instagram</a></button>
+        </div>
     </div>
-   
+    <script src="/navbarDropdown/dropdown.js"></script>
 </body>
-<script src="/grid/index.js"></script>
-<script src="/navbarDropdown/dropdown.js"></script>
 </html>
