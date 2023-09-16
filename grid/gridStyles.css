@@ -6,13 +6,13 @@
    height: 33vw;
    grid-template-columns: repeat(3,1fr);
    grid-template-rows: repeat(3,1fr);
-   background-color: aqua;
+   background-color:#D9D9D9 ;
    padding: 0.9%;
    border-radius: 6px;
 
 }
 .items{
-    background-color: blueviolet;
+    background-color: #00407A;
     margin: 6%;
     border-radius: 6px;
     
