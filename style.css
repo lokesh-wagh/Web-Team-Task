@@ -13,7 +13,9 @@
     .gridLargestItem{
        margin: 6px;
     }
-    
+    .navbarDropdown{
+        display: none;
+    }
 }
 
 @media (min-width: 744px) and (max-width: 1133px) {
@@ -42,5 +44,30 @@
     .navbar{
         padding-right: 20px;
     }
+    .navbarDropdown{
+        display: none;
+    }
     
+}
+
+@media (min-width: 0px ) and (max-width:743px) {
+    .navbar{
+        display: none;
+       
+    }
+    .gridLargest{
+        display: grid;
+        width: 80vw;
+        height: 800px;
+        grid-template-columns: repeat(1,1fr);
+        grid-template-rows: repeat(3,1fr);
+        
+        margin: 5px auto;
+        gap: 20px;
+        
+    }
+    .gridLargestItem{
+       margin: 6px;
+    }
+
 }

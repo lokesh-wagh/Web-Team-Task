@@ -9,9 +9,9 @@
     <link rel="stylesheet" href="/grid/gridStyles.css">
     <link rel="stylesheet" href="/gradientDiv/gradientStyles.css">
     <link rel="stylesheet" href="/style.css">
-
+    <link rel="stylesheet" href="/navbarDropdown/dropdown.css">
 <body>
-    <nav class="navbar">
+    <nav class="navbar" >
         <ul class="nav-list">
             <li><a href="https://www.linkedin.com/in/lokesh-wagh-ab0646257/" class="navbarLi">Linkedin</a></li>
            
@@ -19,6 +19,28 @@
             <li><a href="home.html" class="navbarLi">Home</a></li>
         </ul>
     </nav>
+    <nav class="navbarDropdown">
+        <ul class="masterList">
+            <li style="float: right;">
+                <div class="hamburger-menu">
+                    <div class="bar" id="bar1"></div>
+                    <div class="bar" id="bar2"></div>
+                    <div class="bar" id="bar3"></div>
+                </div>
+            </li>
+            <li>
+                <ul class="nav-links">
+                    <li><a href="https://www.linkedin.com/in/lokesh-wagh-ab0646257/" class="navbarLi">Linkedin</a></li>
+           
+                    <li><a href="index.html" class="navbarLi">Grid</a></li>
+                    <li><a href="home.html" class="navbarLi">Home</a></li>
+                </ul>
+            </li>
+            
+        </ul>
+        
+    </nav>
+   
     <div class="gridLargest">
        
         <div class="gradient-div gridLargestItem" id="gradient"></div>
@@ -42,4 +64,5 @@
    
 </body>
 <script src="/grid/index.js"></script>
+<script src="/navbarDropdown/dropdown.js"></script>
 </html>
