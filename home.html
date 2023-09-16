@@ -5,16 +5,58 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="/navbar/navbarStyle.css">
+    <link rel="stylesheet" href="/home.css">
+    <link rel="stylesheet" href="/navbar/navbarStyle.css">
+    <link rel="stylesheet" href="/navbarDropdown/dropdown.css">
 </head>
 <body>
-    <nav class="navbar" id="navBar">
+    <nav class="navbar" >
         <ul class="nav-list">
-            <li><a href="https://www.linkedin.com/in/lokesh-wagh-ab0646257/">Linkedin</a></li>
+            <li><a href="https://www.linkedin.com/in/lokesh-wagh-ab0646257/" class="navbarLi">Linkedin</a></li>
            
-            <li><a href="index.html">Grid</a></li>
-            <li><a href="home.html">Home</a></li>
+            <li><a href="index.html" class="navbarLi">Grid</a></li>
+            <li><a href="home.html" class="navbarLi">Home</a></li>
         </ul>
     </nav>
-    This is still the home page
+    <nav class="navbarDropdown">
+        <ul class="masterList">
+            <li style="float: right;">
+                <div class="hamburger-menu">
+                    <div class="bar" id="bar1"></div>
+                    <div class="bar" id="bar2"></div>
+                    <div class="bar" id="bar3"></div>
+                </div>
+            </li>
+            <li>
+                <ul class="nav-links">
+                    <li><a href="https://www.linkedin.com/in/lokesh-wagh-ab0646257/" class="navbarLi">Linkedin</a></li>
+           
+                    <li><a href="index.html" class="navbarLi">Grid</a></li>
+                    <li><a href="home.html" class="navbarLi">Home</a></li>
+                </ul>
+            </li>
+            
+        </ul>
+        
+    </nav>
+    <div class="card">
+        <div class="image-container">
+            <img src="/assets/profile.jpeg" alt="Image">
+        </div>
+        <div class="data-container">
+           
+           
+                <p class="text">
+                    Lokesh Wagh
+                </p>
+                <p class="text">
+                    20223137
+                </p>
+                
+        
+            <button class="text" id="cardButton"><a href="https://www.instagram.com/_lokesh_wagh/">View Instagram</a></button>
+        </div>
+    </div>
+    <script src="/navbarDropdown/dropdown.js"></script>
 </body>
 </html>
