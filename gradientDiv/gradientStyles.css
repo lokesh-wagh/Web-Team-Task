@@ -1,8 +1,9 @@
 .gradient-div {
-    width: 33%;
-    height: 33%;
+    width: 40%;
+    height: 40%;
     background-image: linear-gradient(to bottom right, #3300FF, #FA00FF);
-    
+    border: 1px;
+    border-radius: 15px;
 }
 body{
     height: 100vh;
