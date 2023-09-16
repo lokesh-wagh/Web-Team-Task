@@ -6,8 +6,10 @@ body{
 }
 
 .imageContainer{
-    height: 33%;
-    width: 33%;
+    height: 100%;
+    width: 100%;
     border: 1px;
     border-radius: 15px;
+    background-image: url('/assets/e-cell-mnnit-squarelogo-1663839558030 1.png');
+    background-repeat: no-repeat;
 }
